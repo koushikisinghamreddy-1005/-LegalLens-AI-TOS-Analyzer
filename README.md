@@ -34,12 +34,6 @@
 
 The model was trained using **Legal-BERT** for feature extraction and a **OneVsRest SVM Classifier** for multi-label classification. After 10 epochs of fine-tuning, the model achieved near-perfect accuracy on legal clause detection.
 
-### 📈 Training Metrics (Epoch 10)
-| Metric | Value |
-| :--- | :--- |
-| **Training Loss** | `0.0038` |
-| **Train Micro F1** | **0.9998** |
-| **Train Macro F1** | **0.9969** |
 
 ### 🎯 Final Evaluation Scores
 | Dataset | Micro F1 Score | Macro F1 Score |
@@ -65,22 +59,12 @@ The model was trained using **Legal-BERT** for feature extraction and a **OneVsR
    ```bash
    git clone https://github.com/YOUR_USERNAME/LegalLens.git
    cd LegalLens
-Install dependencies:
-code
-Bash
-pip install -r requirements.txt
-Run the application:
-code
-Bash
-streamlit run app.py
-📂 Project Structure
-code
-Text
-├── app.py                # Streamlit Web Interface
-├── legalbert_model.pt    # Fine-tuned Legal-BERT weights
-├── svm_pipeline.pkl      # Trained SVM Classifier
-├── labels.json           # Label mapping for legal categories
-├── requirements.txt      # List of dependencies
-└── README.md             # Project documentation
-⚖️ Disclaimer
+2. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+3. **Run the application:**
+   ```bash
+   streamlit run app.py
+
+## ⚖️ Disclaimer
 Important: This tool is powered by Artificial Intelligence and is intended for informational purposes only. It does not constitute legal advice. Users should consult with a qualified legal professional for official contract interpretations.
