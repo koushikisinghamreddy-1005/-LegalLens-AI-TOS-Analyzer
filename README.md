@@ -1,1 +1,1 @@
-# -LegalLens-AI-TOS-Analyzer
+LegalLens-AI-TOS-Analyzer
