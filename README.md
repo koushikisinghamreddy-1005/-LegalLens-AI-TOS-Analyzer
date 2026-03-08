@@ -37,7 +37,7 @@ The model was trained using **Legal-BERT** for feature extraction and a **OneVsR
 
 ### 🎯 Final Evaluation Scores
 | Dataset | Micro F1 Score | Macro F1 Score |
-| :--- | :--- | :--- |
+| **Training** | `0.9998` | `0.9969` |
 | **Validation** | `0.9943` | `0.8720` |
 | **Testing** | `0.9939` | `0.8621` |
 
